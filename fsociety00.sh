@@ -30,7 +30,7 @@ heal() {
         # Bind-Mount weg?
         mount | grep -q "$TARGET" || bind_king
 
-        sleep 2
+        sleep 0.5
     done
 }
 
